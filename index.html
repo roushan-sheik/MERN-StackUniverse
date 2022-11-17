@@ -1,21 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About my Best friend</title>
-  </head>
-  <body>
-    <h1>Day 3 task</h1>
-    <h1>Name</h1>
-    <h1>Tasmiya khatun</h1>
-    <h1>Age: 20</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-      perspiciatis vitae sit, illum adipisci perferendis, provident beatae dolor
-      impedit labore quo odit exercitationem animi dolore recusandae neque
-      reprehenderit veritatis fugit.
-    </p>
-  </body>
-</html>
+{
+  // Theme
+  "workbench.colorTheme": "Monokai",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
